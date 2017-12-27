@@ -1,4 +1,23 @@
-# dataRace
-##   京东JData算法大赛 54/4240 队伍名称：antlab  http://www.datafountain.cn/projects/jdata/
-##   2017摩拜杯算法挑战赛  12/930+4次周冠军 队伍名称：奖金是可以改善生活的  https://www.biendata.com/competition/mobike/
-##   2017CCF基于主题的文本情感分析  6/800  队伍名称：赶快上一波分   http://www.datafountain.cn/#/competitions/268/intro
+## 基于主题的文本情感分析
+### 赛题背景
+&emsp;&emsp;以网上电商购物评论为例，原始的主题模型主要针对篇幅较大的文档或者评论句子的集合，学习到的主题主要针对整个产品品牌；而现实情形是，用户评论大多针围绕产品的某些特征或内容主题展开（如口味、服务、环境、性价比、交通、快递、内存、电池续航能力、原料、保质期等等，这说明相比于对产品的整体评分， 用户往往更关心产品特征），而且评论文本往往较短。
+### 任务描述
+&emsp;&emsp;本次大赛提供脱敏后的电商评论数据。参赛队伍需要通过数据挖掘的技术和机器学习的算法，根据语句中的主题特征和情感信息来分析用户对这些主题的偏好，并以<主题，情感词，score>序对作为输出。
+
+### 数据介绍
+#### 电商商品评论数据
+注意：某些数据的某些字段可能为NULL或者表情符号，请自行处理。
+#### 训练数据
+|Field|Type|Description |Note|
+|:----|:----|:----|:-----|
+|row_id |String|测试数据ID| |
+|content |String |评论内容| |
+|theme |String |主题| 提取或归纳出来的主题|
+|sentiment_word| String| 情感词| 情感词|
+|sentiment_anls| String |情感分析 |分析出的情感|
+
+#### 测试数据
+|Field|Type|Description
+|:----|:----|:----|
+|row_id |String|测试数据ID|
+|content |String |评论内容|
