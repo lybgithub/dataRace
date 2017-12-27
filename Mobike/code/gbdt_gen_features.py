@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  3 21:37:30 2017
 
-@author: bryan
-"""
 
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
