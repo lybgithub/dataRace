@@ -1,4 +1,17 @@
-# dataRace
-##   京东JData算法大赛 54/4240 队伍名称：antlab  http://www.datafountain.cn/projects/jdata/
-##   2017摩拜杯算法挑战赛  12/930+4次周冠军 队伍名称：奖金是可以改善生活的  https://www.biendata.com/competition/mobike/
-##   2017CCF基于主题的文本情感分析  6/800  队伍名称：赶快上一波分   http://www.datafountain.cn/#/competitions/268/intro
+## 2017摩拜杯算法挑战赛
+### 背景简介
+为了更好的调度和管理摩拜单车，需要准确地预测每个用户的骑行目的地
+### 任务描述
+参赛者需要根据摩拜提供的数据，预测骑行的目的地所在区块。
+比赛地训练集取北京某一区域的一段时间内的部分数据，测试集为同一区域未来一段时间的数据。
+标注数据中包含300万条出行记录数据，覆盖超过30万用户和40万摩拜单车。数据包括骑行起始时间和地点、车辆ID、车辆类型和用户ID等信息。参赛选手需要预测最可能的3个骑行目的区块位置(geohashed_end_loc),区块位置使用Geohash加密。
+### 数据
+|数据|含义|
+|----|----|
+|orderid|订单号|
+|userid|用户ID|
+|bikeid|车辆ID|
+|biketype|车辆类型|
+|starttime|骑行起始日期时间|
+|geohashed_start_loc|骑行起始区块位置|
+|geohashed_end_loc|骑行目的地区块位置（测试集中需要选手预测）|
