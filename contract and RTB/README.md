@@ -1,4 +1,4 @@
-## Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand
+## Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)
 
 ### 1.paper总结
 #### 1.1.这个paper主要是合约端的优化。  
@@ -58,7 +58,7 @@ S为总的supply，所以最多肯定不能超过这个。
 #### 公式的解释：就相当于是首先求x作为二价的概率，然后再在x的所有可能情况上进行积分，最后得到的就是在一个competitive level上的期望auction收益.
 
 
-## Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI)
+## Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)
 ### 1.paper概览
 ### >> demand方面：对CES(constant elasticity of substitution) 建模。认为seller卖出的A广告的价格会影响B广告的demand，最后learn到一个constant，这个constant是不同Ad之间价格的改变，对彼此demand的影响.
 ### >> supply方面：使用decision-tree对不同类型impression的(quantities,cost)进行建模.tree上面的每一条path就是impression的不同attribute，每一个leaf节点的值为分到这个节点下面sample上面的pair取average.
@@ -84,9 +84,9 @@ S为总的supply，所以最多肯定不能超过这个。
 
 ## Paper3:Pricing guaranteed contracts in online display advertising
 #### -ACM,2010
-#### -定价端：基于impression的value进行定价，这个value主要由过去数据中seller和advertiser之间的历史price决定.
+#### -合约端：基于impression的value进行定价，这个value主要由过去数据中seller和advertiser之间的历史price决定.
 #### -other insight：可以关于这个value，我们可以使用更为先进的方法，比如RNN.  
 
 ## Paper4:Risk-aware revenue maximization in display advertising
 #### -WWW,2012
-#### -定价端：基于对未来demand的建模, 找到最大化revenue的contract price
+#### -合约端：基于对未来demand的建模, 找到最大化revenue的contract price
