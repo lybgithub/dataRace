@@ -1,11 +1,12 @@
 # Table of Contents
-1. [Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)](#example)
-2. [Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)](#example2)
-3. [Third Example](#third-example)
+1. [Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017，合约端)](#paper1)
+2. [Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)](#paper2)
+3. [Paper3:Pricing guaranteed contracts in online display advertising(2010 ACM，合约端)](#paper3)
+3. [Paper4:Risk-aware revenue maximization in display advertising(2012 WWW，合约端)](#paper4)
 
-
-## Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)
-
+<a name="paper1">
+Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)
+</a>
 ### 1.paper总结
 #### 1.1.这个paper主要是合约端的优化。  
 ##### &emsp;&emsp;在已经预测出supply和demand的基础之上，通过DP的办法遍历所有合约端分配impression数量的可能，求出一个最优的合约端收益，这个最优化的过程中确定了两件事情：  
