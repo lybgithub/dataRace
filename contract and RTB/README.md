@@ -6,7 +6,9 @@
 
 <a name="paper1">
 Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)
-</a>
+</a>  
+
+
 ### 1.paper总结
 #### 1.1.这个paper主要是合约端的优化。  
 ##### &emsp;&emsp;在已经预测出supply和demand的基础之上，通过DP的办法遍历所有合约端分配impression数量的可能，求出一个最优的合约端收益，这个最优化的过程中确定了两件事情：  
