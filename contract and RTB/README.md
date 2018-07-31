@@ -1,3 +1,9 @@
+# Table of Contents
+1. [Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)](#example)
+2. [Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)](#example2)
+3. [Third Example](#third-example)
+
+
 ## Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)
 
 ### 1.paper总结
