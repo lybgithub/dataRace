@@ -68,6 +68,7 @@ S为总的supply，所以最多肯定不能超过这个。
 <a name="paper2">
 Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)
 </a>  
+
 ### 1.paper概览
 ### >> demand方面：对CES(constant elasticity of substitution) 建模。认为seller卖出的A广告的价格会影响B广告的demand，最后learn到一个constant，这个constant是不同Ad之间价格的改变，对彼此demand的影响.
 ### >> supply方面：使用decision-tree对不同类型impression的(quantities,cost)进行建模.tree上面的每一条path就是impression的不同attribute，每一个leaf节点的值为分到这个节点下面sample上面的pair取average.
@@ -93,6 +94,7 @@ Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合�
 <a name="paper3">
 Paper3:Pricing guaranteed contracts in online display advertising
 </a>  
+
 #### -ACM,2010
 #### -合约端：基于impression的value进行定价，这个value主要由过去数据中seller和advertiser之间的历史price决定.
 #### -other insight：可以关于这个value，我们可以使用更为先进的方法，比如RNN.   
@@ -100,5 +102,6 @@ Paper3:Pricing guaranteed contracts in online display advertising
 <a name="paper4">
 Paper4:Risk-aware revenue maximization in display advertising
 </a>  
+
 #### -WWW,2012
 #### -合约端：基于对未来demand的建模, 找到最大化revenue的contract price
