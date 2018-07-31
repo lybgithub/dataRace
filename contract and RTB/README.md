@@ -5,7 +5,7 @@
 3. [Paper4:Risk-aware revenue maximization in display advertising(2012 WWW，合约端)](#paper4)
 
 <a name="paper1">
-<font color=#0099ff size=12 face="黑体">Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)</font>
+<font size=5>Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)</font>
 </a>  
 
 ### 1.paper总结
