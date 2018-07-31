@@ -4,9 +4,8 @@
 3. [Paper3:Pricing guaranteed contracts in online display advertising(2010 ACM，合约端)](#paper3)
 3. [Paper4:Risk-aware revenue maximization in display advertising(2012 WWW，合约端)](#paper4)
 
-<a name="paper1">
-'Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)'
-</a>  
+<a name="paper1"> </a>  
+## Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)
 
 ### 1.paper总结
 #### 1.1.这个paper主要是合约端的优化。  
