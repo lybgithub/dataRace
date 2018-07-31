@@ -66,9 +66,8 @@ d.R<sup>RTB</sup>期望的计算方法：
 ![](assets/markdown-img-paste-20180729214742582.png)  
 公式的解释：就相当于是首先求x作为二价的概率，然后再在x的所有可能情况上进行积分，最后得到的就是在一个competitive level上的期望auction收益.
 
-<a name="paper2">
-Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)
-</a>  
+<a name="paper2"> </a>  
+## Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)
 
 ### 1.paper概览
 ### >> demand方面：
@@ -95,20 +94,16 @@ Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合�
 ### 3.可能改进:
 对于supply的建模可以使用目前比较流行的gbdt，而不是一棵简单的决策树.
 
-<a name="paper3">
-Paper3:Pricing guaranteed contracts in online display advertising
-</a>  
-
+<a name="paper3"> </a>  
+## Paper3:Pricing guaranteed contracts in online display advertising
 #### -ACM,2010
 #### -合约端：
 基于impression的value进行定价，这个value主要由过去数据中seller和advertiser之间的历史price决定.
 #### -other insight：
 可以关于这个value，我们可以使用更为先进的方法，比如RNN.   
 
-<a name="paper4">
-Paper4:Risk-aware revenue maximization in display advertising
-</a>  
-
+<a name="paper4"> </a>  
+## Paper4:Risk-aware revenue maximization in display advertising
 #### -WWW,2012
 #### -合约端：
 基于对未来demand的建模, 找到最大化revenue的contract price
