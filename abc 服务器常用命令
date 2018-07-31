@@ -1,0 +1,17 @@
+ip:abc@10.14.8.9    abc123
+pc@10.14.8.8    pc
+
+nohup python train_without_lm_dict_125.py > 1122.log 2>&1 &
+
+scp new_title_short_label3_revision7 li@10.14.0.24:~
+
+scp file abc@10.14.8.9:~/NLP
+
+scp -r directory
+
+vim command:
+shift+g 跳转到最后一行
+dd 删除某一行
+yy+p 复制某一行
+\ 搜索  n 下一个匹配的搜索项  N 上一个匹配的搜索项
+：index  跳转到index行
