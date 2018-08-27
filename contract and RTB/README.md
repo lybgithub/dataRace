@@ -107,3 +107,27 @@ d.R<sup>RTB</sup>期望的计算方法：
 #### -WWW,2012
 #### -合约端：
 基于对未来demand的建模, 找到最大化revenue的contract price
+
+<a name="paper5"> </a>  
+## Paper5:several papers:main topic is:Ad option
+#### -合约端：
+主要思想就是：先拿一小部分钱A1得到可以提前竞价目标impression的right，RTB的时候根据实际情况决定买不买，如果决定买，只需要付当时约定的剩余的A2，总的cost是A1+A2。但是如果他觉得RTB的价格可能会更低，那么他可以决定参加RTB，假设使用GSP最后竞价所得是B，那么这种情况下他的总cost是A1+B
+
+<a name="paper6"> </a>  
+## Paper6:Risk-Aware Dynamic Reserve Prices of Programmatic Guarantee in Display Advertising  
+#### -2016 IEEE 16th International Conference on Data Mining Workshops
+#### -合约端：
+1.使用passive PG，也就是buyer看不到reserve price
+![figure6-1](assets/markdown-img-paste-20180828001348357.png)
+2.使用passive PG的好处是不需要考虑arrival的分布，只需要考虑demand和supply的数量，因为这种方式，不会影响buyer的arrival.  
+3.这个看不到的reserve price是dynamic的，主要和两个变量相关，一个是当前的时间t，另一个是当前剩余的impression
+![figure6-2](assets/markdown-img-paste-20180828001735218.png)
+其中的ω为guarantee没有成功deliver的概率，γ为违约的惩罚系数，V(t,s)为seller在时刻t剩余impression数目为s情况下的价值.
+![figure6-3](assets/markdown-img-paste-20180828002122371.png)
+4.上面的V没有考虑到risk-aware，就是当前一个PG impression卖出去影响RTB的bid.如果考虑，将会变成下面的形式
+![figure6-4](assets/markdown-img-paste-20180828003101178.png)
+ξ为竞争的激烈程度(一个impression对应的buyer的人数)  
+φ(·)为当前激烈程度在RTB时候一个impression的期望收益  
+ψ(·)为当前激烈程度下大家竞价的标准差  
+π(·)为当前激烈程度下最后的winning bid(暂时没搞清楚和上面期望收益的差别)  
+λ为这个publisher的risk level
