@@ -2,7 +2,9 @@
 1. [Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017，合约端)](#paper1)
 2. [Paper2:Posted Prices Exchange for Display Advertising Contracts(2013 AAAI，合约端)](#paper2)
 3. [Paper3:Pricing guaranteed contracts in online display advertising(2010 ACM，合约端)](#paper3)
-3. [Paper4:Risk-aware revenue maximization in display advertising(2012 WWW，合约端)](#paper4)
+4. [Paper4:Risk-aware revenue maximization in display advertising(2012 WWW，合约端)](#paper4)
+5. [Paper5:several papers:main topic is:Ad option(合约端)](#paper5)
+6. [Paper6:Risk-Aware Dynamic Reserve Prices of Programmatic Guarantee in Display Advertising，(IEEE,2016,合约端))](#paper6)
 
 <a name="paper1"> </a>  
 ## Paper1:Combining guaranteed and spot markets in display advertising: selling guaranteed page views with stochastic demand (2017,合约端)
