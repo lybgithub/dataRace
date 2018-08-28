@@ -129,7 +129,8 @@ d.R<sup>RTB</sup>期望的计算方法：
 4.上面的V没有考虑到risk-aware，就是当前一个PG impression卖出去影响RTB的bid.如果考虑，将会变成下面的形式
 ![figure6-4](assets/markdown-img-paste-20180828003101178.png)
 ξ为竞争的激烈程度(一个impression对应的buyer的人数)  
-φ(·)为当前激烈程度在RTB时候一个impression的期望收益  
-ψ(·)为当前激烈程度下大家竞价的标准差  
+s为remaining impressions.
+φ(·)为当前激烈程度在RTB时候一个impression的payment,用二价去计算的一个积分期望值.  
+ψ(·)为当前激烈程度下payment的标准差  
 π(·)为当前激烈程度下最后的winning bid(暂时没搞清楚和上面期望收益的差别)  
-λ为这个publisher的risk level
+λ为这个publisher的risk level.
